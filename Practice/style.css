@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+p {
+    padding: 10px;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 16px;
+}
+
+.div-one {
+    border: 2px solid purple;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.div-two {
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    border: 1px dashed green;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
+}
+
+.div-three {
+    border: 3px double blue;
+    width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: left;
+}
+
+/* Other styling rules for table */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+button {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background-color: #ffcc00;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff9900;
+}
